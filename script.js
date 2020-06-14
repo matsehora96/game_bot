@@ -9,8 +9,7 @@ let userNumber,
 const validation = data => {
     
     if (data === null) {
-        alert("Конец игры");
-        return null;
+        return alert("Конец игры");
     }
     
     if (!isNumber(data)) {
